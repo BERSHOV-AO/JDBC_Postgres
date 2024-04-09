@@ -1,5 +1,10 @@
-INSERT INTO users (username, email) VALUES ('user1', 'user1@example.com');
-INSERT INTO users (username, email) VALUES ('user2', 'user2@example.com');
-
-INSERT INTO posts (title, content, user_id) VALUES ('Post 1', 'Content of post 1', 1);
-INSERT INTO posts (title, content, user_id) VALUES ('Post 2', 'Content of post 2', 2);
+insert into netology.users (id, name, age, address)
+values (1, 'Alex', 30, 'NNov');
+insert into netology.users (id, name, age, address)
+values (2, 'Max', 23, 'Kazan');
+insert into netology.users (id, name, age, address)
+values (3, 'Ivan', 20, 'Moscow');
+insert into netology.users (id, name, age, address)
+values (4, 'Sveta', 33, 'NNov');
+insert into netology.users (id, name, age, address)
+values (5, 'Max', 18, 'NNov');
